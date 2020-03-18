@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<form action="/User/Login" method="post">
+    <table>
+        <tr>
+            <td>Kullanıcı Adı:</td>
+            <td><input type="text" name="Username" /></td>
+        </tr>
+        <tr>
+            <td>Şifreniz</td>
+            <td><input type="password" name="UserPassword" /></td>
+        </tr>
+        <tr>  
+            <td><input type="submit" name="btnLogin" value="Giriş Yap" /></td>
+        </tr>
+    </table>
+</form>
+

@@ -1,0 +1,22 @@
+﻿.popularTitle p {
+    margin: 45px 0 25px 0;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #575757;
+}
+.popularText {
+    font-weight: 600;
+    color: #545454;
+    font-size: 0.8em;
+    margin-top: 10px;
+
+}
+
+.popularImages {
+    font-size: 0.75em;
+    margin-top: 12px;
+ 
+}
+.endAddBox{
+    margin-top:5px;
+}

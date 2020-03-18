@@ -1,0 +1,83 @@
+﻿.post-box {
+    margin-bottom: 50px;
+    color: #646464;
+    background-color: #fff;
+    -webkit-box-shadow: 5px 5px 15px 3px #b6b6b6;
+    box-shadow: 5px 5px 15px 3px #b6b6b6;
+    height: auto;
+}
+.post-title {
+    padding: 15px 10px 20px 10px;
+    font-weight: 600;
+    color: #484848;
+    font-size:1.4em;
+}
+.post-head {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#646464;
+    padding: 40px 10px 0 10px;
+    font-size:0.8em;
+}
+.post-content {
+ 
+    padding: 0px 10px 20px 10px;
+    font-size: 0.82em;
+    line-height: 23px;
+}
+.post-footer {
+    font-size: 0.82em;
+    padding: 10px 10px 20px 10px;
+   
+}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.post-comment {
+    background-image: url("../image/comment.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    min-height: 30px;
+    opacity: 0.5;
+ 
+}
+.post-like {
+    background-image: url("../image/like.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    min-height: 30px;
+    opacity: 0.5
+}
+.post-view {
+    background-image: url("../image/view.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    min-height: 30px;
+    opacity: 0.5
+}
+.commentCount p {
+    position: relative;
+    top: -27px;
+    left: 30px;
+}
+
+.post-articleLike p {
+    position: relative;
+    top: -27px;
+    left: 30px;
+}
+
+.post-ArticleView p {
+    position: relative;
+    top: -27px;
+    left: 30px;
+}
+.page{
+   
+   text-align:center;
+
+  
+}

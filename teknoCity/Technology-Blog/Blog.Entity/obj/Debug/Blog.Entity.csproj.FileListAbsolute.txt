@@ -1,0 +1,11 @@
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\Blog.Entity.dll.config
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\Blog.Entity.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\Blog.Entity.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\EntityFramework.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\EntityFramework.xml
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\obj\Debug\Blog.Entity.csproj.CopyComplete
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\obj\Debug\Blog.Entity.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\obj\Debug\Blog.Entity.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Entity\obj\Debug\Blog.Entity.csprojAssemblyReference.cache

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Blog.Entity.Models.tbl_article>
+
+
+    <div class="row">
+        <div class="col-12 popularTitle ">
+            <p>Son Eklenen Makaleler</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-12">
+            @foreach (var item in Model)
+            {
+                <div class="endAddBox col-12">
+                    <div class="col-4">
+                        <img src=" @item.tbl_images.ImagesSmall" width="70" height="60" />
+
+                    </div>
+                    <div class="col-8">
+                        <div class="col-12 popularText ">@item.ArticleTitle</div>
+                        <div class="col-12 popularImages">@item.ArticleCreateDate.ToShortDateString() / @item.tbl_comments.Count()</div>
+                    </div>
+
+                </div>
+
+
+            }
+
+
+        </div>
+
+       
+    </div>
+
+

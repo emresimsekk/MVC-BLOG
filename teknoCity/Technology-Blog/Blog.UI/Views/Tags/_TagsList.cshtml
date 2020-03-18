@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Blog.Entity.Models.tbl_tags>
+    <div class="row">
+        <div class="tagsTitle  col-12">
+            <p>Etiketler</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="tags-box col-12">
+            
+            @foreach (var item in Model)
+            {
+                <div class="box">
+                    <a href="~/Tags/Index/@item.TagID">@item.TagName</a>
+                </div>
+
+            }
+        </div>
+
+       
+    </div>
+
+
+
+
+

@@ -1,0 +1,17 @@
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Business.dll.config
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Business.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Business.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Dal.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Entity.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\EntityFramework.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Dal.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Dal.dll.config
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Entity.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\Blog.Entity.dll.config
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\EntityFramework.xml
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\obj\Debug\Blog.Business.csprojAssemblyReference.cache
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\obj\Debug\Blog.Business.csproj.CopyComplete
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\obj\Debug\Blog.Business.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Business\obj\Debug\Blog.Business.pdb

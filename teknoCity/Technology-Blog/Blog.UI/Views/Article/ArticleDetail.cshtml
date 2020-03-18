@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewBag.Title = Model.ArticleTitle;
+}
+
+@model Blog.Entity.Models.tbl_article
+
+    <div class="col-12 containerDetail">
+        <div class="col-11">  <img src="@Model.tbl_images.ImagesBig" class="col-11 imgDetail" /></div>
+        <div class="col-12 titleDetail">@Model.ArticleTitle</div>
+
+        <div class="col-2 nameDetail">@Model.tbl_user.tbl_userInfo.UserName @Model.tbl_user.tbl_userInfo.UserSurname</div>
+        <div class="col-7 dateDetail">@Model.ArticleCreateDate.ToShortDateString()</div>
+        <div class="col-3 categoriDetail">@Model.tbl_category.CategoryName</div>
+
+
+        <div class="col-12"><br /> <hr class="hrDetail" /><br /></div>
+        <div class="col-12 contentDetail">@Model.ArticleContent</div>
+        <div class="col-12 tagNameDetail"><h4>Etiketler</h4></div>
+
+        @foreach (var item in Model.tbl_articleTags)
+        {
+            <div class="box">
+                <a href="~/Tags/Index/@item.TagID">@item.tbl_tags.TagName</a>
+            </div>
+        }
+
+
+        
+        <div class="col-12 hrBottom"><br /> <hr class="hrDetail" /><br /></div>
+        
+        <div class="col-12 bottomDetail">
+
+            <div class="col-1 likeDetail">
+                <div class="col-5"><span></span></div>
+                <div class="col-4">@Model.ArticleLike</div>
+
+            </div>
+
+            <div class="col-1 viewDetail">
+                <div class="col-5"><span></span></div>
+                <div class="col-4">@Model.ArticleViews</div>
+
+            </div>
+
+            <div class="col-1 commentDetail">
+                <div class="col-5"><span></span></div>
+                <div class="col-4">@Model.tbl_comments.Count()</div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="col-12"><br /> <hr class="hrDetail" /><br /></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@foreach (var item in Model.tbl_comments)
+{
+
+    @item.CommentEmail
+
+    @item.CommentName
+
+    @item.CommentSurname
+
+    @item.CommentLike
+
+    @item.CommentCreateDate
+
+}

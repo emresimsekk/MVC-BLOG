@@ -1,0 +1,31 @@
+﻿.aboutTitle p {
+    margin: 35px 0 25px 0;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #575757
+}
+.socialTitle p {
+    
+    margin: 25px 0 5px 0;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #575757
+}
+
+.aboutText {
+    margin: 0 0 15px 0;
+    word-wrap: break-word;
+    line-height: 22px; 
+    color: #898989;
+    font-size: 0.9em;
+}
+.social{
+    margin-top:25px;
+    width:75%;
+    opacity:0.6;
+}
+
+.box a {
+    text-decoration: none;
+    color: #9f9f9f;
+}

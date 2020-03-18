@@ -1,0 +1,11 @@
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\Blog.Dto.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\Blog.Dto.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\obj\Debug\Blog.Dto.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\obj\Debug\Blog.Dto.pdb
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\Blog.Dto.dll.config
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\EntityFramework.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\EntityFramework.xml
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\obj\Debug\Blog.Dto.csproj.CopyComplete
+C:\Users\Emre\Desktop\teknoCity\Technology-Blog\Blog.Dto\obj\Debug\Blog.Dto.csprojAssemblyReference.cache

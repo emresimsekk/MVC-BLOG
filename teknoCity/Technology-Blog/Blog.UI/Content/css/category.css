@@ -1,0 +1,30 @@
+﻿.categoryTitle p {
+    margin: 45px 0 5px 0;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #575757
+}
+.line {
+    font-family: 'Leelawadee UI';
+    font-size: 0.9em;
+    padding: 20px 0 6px 0;
+    border-bottom: solid 1px #cbcbcb;
+  
+}
+    .line a {
+        float: left;
+        text-decoration: none;
+        font-family: Constantia;
+        color: #9f9f9f;
+    }
+    .line span {
+        float: left;
+        width: 100%;
+        background-color: #e8e8e8;
+        color: #a5a5a5;
+        font-weight: 600;
+        display: table;
+        text-align: center;
+        font-family: Constantia;
+        border-radius: 50%;
+    }

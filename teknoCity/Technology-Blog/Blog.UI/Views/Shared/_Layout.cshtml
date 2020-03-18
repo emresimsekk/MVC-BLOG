@@ -1,0 +1,140 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Blog-@ViewBag.Title</title>
+
+    <link href="~/Content/css/layout.css" rel="stylesheet" />
+    <link href="~/Content/css/search.css" rel="stylesheet" />
+    <link href="~/Content/css/populerArticle.css" rel="stylesheet" />
+    <link href="~/Content/css/category.css" rel="stylesheet" />
+    <link href="~/Content/css/tags.css" rel="stylesheet" />
+    <link href="~/Content/css/about.css" rel="stylesheet" />
+    <link href="~/Content/css/articleList.css" rel="stylesheet" />
+    <link href="~/Content/css/pagedList.css" rel="stylesheet" />
+    <link href="~/Content/css/articleDetail.css" rel="stylesheet" />
+
+    @RenderSection("head", false)
+
+</head>
+<body>
+    <header class="row">
+        <div class="col-12 header ">
+           
+            <div class="col-3 logo"><p>Emre ŞİMŞEK</p></div>
+            <div class="col-7  ">
+                <div class="col-9 ">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">Kategoriler <span class="icon">&nbsp;</span></a>
+                                <ul>
+                                    <li><a href="#">Kategori 1</a></li>
+                                    <li><a href="#">Kategori 2</a></li>
+                                    <li><a href="#">Kategori 3</a></li>
+                                    <li><a href="#">Kategori 4</a></li>
+                                    <li><a href="#">Kategori 5</a></li>
+                                    <li><a href="#">Kategori 6</a></li>
+                                    <li><a href="#">Kategori 7</a></li>
+                                    <li><a href="#">Kategori 8</a></li>
+                                    <li><a href="#">Kategori 9</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Etiketler<span class="icon">&nbsp;</span></a>
+                                <ul>
+                                    <li><a href="#">Etiket 1</a></li>
+                                    <li><a href="#">Etiket 2</a></li>
+                                    <li><a href="#">Etiket 3</a></li>
+                                    <li><a href="#">Etiket 4</a></li>
+                                    <li><a href="#">Etiket 5</a></li>
+                                    <li><a href="#">Etiket 6</a></li>
+                                    <li><a href="#">Etiket 7</a></li>
+                                    <li><a href="#">Etiket 8</a></li>
+                                    <li><a href="#">Etiket 9</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Hakkımızda</a>
+
+                            </li>
+                            <li>
+                                <a href="#">İletişim</a>
+
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-3 login_register">
+                    <p><a href="#">Giriş Yap </a> / <a href="#">Bize Katıl</a> </p>
+                </div>
+            </div>
+            <div class="col-2 socialIcon ">
+                <div class="col-2"><span class="facebook">&nbsp;</span> </div>
+                <div class="col-2"><span class="instagram">&nbsp;</span> </div>
+                <div class="col-2"><span class="twitter">&nbsp;</span> </div>
+                <div class="col-2"><span class="gmail">&nbsp;</span> </div>
+                <div class="col-2"><span class="youtube">&nbsp;</span> </div>
+                <div class="col-2"><span class="whatsapp">&nbsp;</span> </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="titleBar"></div>
+
+    <main class="row">
+        <div class="col-12 container">
+
+            <div class="col-1  ">&nbsp;</div>
+            <div class="col-10">
+                <div class="col-3 sidenav ">
+                    <div class="col-1 ">
+                        &nbsp;
+                    </div>
+                    <div class="col-10">
+                        @{Html.RenderAction("_Search", "Search");}
+                        @{Html.RenderAction("_PopulerArticle", "PopularArticle");}
+                        @{Html.RenderAction("_CategoryList", "Category");}
+                        @{Html.RenderAction("_TagsList", "Tags");}
+                        @{Html.RenderAction("_About", "About");}
+                    </div>
+                    <div class="col-1 ">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="col-9 ">
+
+                 
+                    <div class="col-12  ">
+
+                        @RenderBody()
+                    </div>
+                  
+
+                </div>
+            </div>
+            <div class="col-1  ">&nbsp;</div>
+
+        </div>
+    </main>
+
+    <footer class="row">
+        <div class="col-12 footer"><p>Copyright 2019 Emre Şimşek</p></div>
+    </footer>
+
+
+
+
+    
+
+
+</body>
+</html>
+
+

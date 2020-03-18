@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Blog.Entity.Models.tbl_category>
+
+@section head
+{
+    <link href="~/Content/css/category.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="categoryTitle  col-12">
+        <p>Kategori</p>
+    </div>
+</div>
+
+@foreach (var item in Model)
+{
+    <div class="line col-12">
+        <div class="col-11"><a href="~/Category/Index/@item.CategoryID"> @item.CategoryName</a></div>
+        <div class="col-1"><span> @item.tbl_articles.Count</span></div>
+    </div>
+
+}
+
+
+
+
+
+

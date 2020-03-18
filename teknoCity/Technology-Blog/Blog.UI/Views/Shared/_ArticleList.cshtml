@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+@using PagedList;
+@using PagedList.Mvc;
+@model  PagedList.IPagedList<Blog.Entity.Models.tbl_article>
+
+
+@helper  contentShorten(string text)
+{
+    if (text.Length > 300)
+    {
+        @text.Substring(0, 300)
+    }
+    else
+    {
+        @text
+    }
+
+}
+
+
+
+    <div class="row ">
+        @foreach (var item in Model)
+        {
+            <div class="col-1">&nbsp;</div>
+            <a href="~/Article/ArticleDetail/@item.ArticleID">
+                <div class="col-5 post-box ">
+                    <div class="col-12">
+
+                        <div class="col-12">
+                            <img src=" @item.tbl_images.ImagesSmall" class="col-12" height="250" />
+                        </div>
+
+                        <div class="col-12 post-head">
+                            <div class="col-1">&nbsp;</div>
+                            <div class="col-8">
+                                @item.tbl_user.tbl_userInfo.UserName
+                                @item.tbl_user.tbl_userInfo.UserSurname
+                            </div>
+
+                            <div class="col-2">@item.ArticleCreateDate.ToShortDateString()</div>
+                            <div class="col-1">&nbsp;</div>
+                        </div>
+                        <div class="col-12 post-title">
+                            <div class="col-1">&nbsp;</div>
+                            <div class="col-10"> @item.ArticleTitle</div>
+                            <div class="col-1">&nbsp;</div>
+
+                        </div>
+
+
+
+                        <div class="col-12 post-content">
+                            <div class="col-1">&nbsp;</div>
+                            <div class="col-10">@contentShorten(item.Preamble)</div>
+                            <div class="col-1">&nbsp;</div>
+
+                        </div>
+                        <hr class="col-12 style-six" />
+                        <div class="col-12 post-footer">
+                            <div class="col-1">&nbsp;</div>
+
+                            <div class="col-4">@item.tbl_category.CategoryName</div>
+                            <div class="col-2 post-ArticleView"><i class="col-12 post-view">&nbsp;</i><p>@item.ArticleViews</p></div>
+                            <div class="col-2 post-articleLike"><i class="col-12 post-like">&nbsp;</i><p>@item.ArticleLike</p></div>
+
+                            <div class="col-2 commentCount"><i class="col-12 post-comment">&nbsp;</i><p>@item.tbl_comments.Count()</p></div>
+
+                            <div class="col-1">&nbsp;</div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </a>
+
+
+
+        }
+    </div>
+<div class="row">
+
+    <div class="col-12 page">
+        @Html.PagedListPager((IPagedList)Model, pageNumber => Url.Action("Index", new { pageNumber }))
+    </div>
+
+</div>
+
+
